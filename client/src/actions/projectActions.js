@@ -9,7 +9,7 @@ import {
   
 } from '../constants/projectConstants';
 
-export const projectDetails = () => async (dispatch) => {
+export const projectDetail = () => async (dispatch) => {
   try {
     dispatch({ type: PROJECT_DETAILS_REQUEST });
 
