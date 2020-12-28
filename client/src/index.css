@@ -3,4 +3,107 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+/* <form onSubmit={handleClick}>
+              <div className='relative mb-4'>
+                <input
+                  type='name'
+                  placeholder='Title'
+                  maxLength={80}
+                  onChange={(e) => setTitle(e.target.value)}
+                  value={title}
+                  autoComplete='off'
+                  className='w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                />
+                {error && (
+                  <span class='leading-7 text-sm text-red-600'>
+                    {titleError}
+                  </span>
+                )}
+              </div>
+              <div className='relative mb-4'>
+                <textarea
+                  id='message'
+                  name='message'
+                  maxLength={200}
+                  autoComplete='off'
+                  onChange={(e) => setDescription(e.target.value)}
+                  value={description}
+                  placeholder='Description'
+                  className='w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'></textarea>
+                {error && (
+                  <span class='leading-7 text-sm text-red-600'>
+                    {descriptionError}
+                  </span>
+                )}
+              </div>
+              <div className='relative mb-4'>
+                <input
+                  disabled
+                  type='name'
+                  autoComplete='off'
+                  placeholder='Upload Attachment'
+                  id='name'
+                  name='name'
+                  className='w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                />
+              </div>
+              <div className='relative mb-4'>
+                <DatePicker
+                  className='w-full text-gray-400 rounded'
+                  onChange={onChange}
+                  calendarIcon=''
+                  clearIcon=''
+                  value={value}
+                  placeholder='Select a day'
+                  minDate={new Date()}
+                />
+              </div>
+              <div className='relative mb-4'>
+                <input
+                  type='name'
+                  autoComplete='off'
+                  placeholder='Project Cost'
+                  onChange={(e) => setCost(e.target.value)}
+                  value={cost}
+                  id='name'
+                  name='name'
+                  className='w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                />
+                {error && (
+                  <span class='leading-7 text-sm text-red-600'>
+                    {costError}
+                  </span>
+                )}
+              </div>
+              <div className='relative mb-4 flex flex-row justify-between items-center'>
+                <p className='text-gray-400 font-medium'>
+                  CleverX transection fees (20%)
+                </p>
+                <p className='text-gray-400 font-medium'>{tax}</p>
+              </div>
+              <div className='relative mb-4 flex flex-row justify-between items-center'>
+                <p className='text-gray-400 font-medium'>
+                  Total amount in $USD
+                </p>
+                <p className='text-gray-400 font-medium'>{total}</p>
+              </div>
+              <button
+                type='submit'
+                className='text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ml-36'>
+                Create Project
+              </button>
+            </form> */
 
+
+
+            /* <div className='flex flex-row justify-between items-center'>
+              <h2 className='text-gray-900 text-lg mb-1 font-bold title-font ml-36'>
+                Create Project
+              </h2>
+              <button onClick={closeModal}>
+                <box-icon name='x'></box-icon>
+              </button>
+            </div>
+            <p className='leading-relaxed mb-5 text-gray-600'>
+              <hr />
+            </p> */

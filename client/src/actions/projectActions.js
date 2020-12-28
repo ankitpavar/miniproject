@@ -30,7 +30,7 @@ export const projectDetail = () => async (dispatch) => {
   }
 };
 
-export const createProject = ({name, summary, cost, date}) => async (dispatch) => {
+export const createProject = (name, summary, cost,date) => async (dispatch) => {
   try {
     dispatch({
       type: PROJECT_CREATE_REQUEST,

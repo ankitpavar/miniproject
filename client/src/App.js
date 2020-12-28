@@ -1,12 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-import ProductPage from './pages/ProductPage'
+import ProductPage from './pages/ProductPage';
+import SuccessPage from './pages/SuccessPage';
 
 function App() {
   return (
-    <div className="App">
-     <ProductPage />
-    </div>
+    <>
+      <BrowserRouter>
+        <Route exact path='/' component={ProductPage} />
+        <Route path='/success' component={SuccessPage} />
+      </BrowserRouter>
+    </>
   );
 }
 
