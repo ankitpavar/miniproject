@@ -1,6 +1,5 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Moment from 'react-moment';
 import moment from 'moment';
 
 import { projectDetail } from '../actions/projectActions';
