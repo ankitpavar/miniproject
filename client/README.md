@@ -18,5 +18,6 @@ You will also see any lint errors in the console.
 
 ### Tech stack
 
-Markup: _ React
-_ redux \* Tailwind CSS
+ * React
+ * Redux
+ * Tailwind CSS
